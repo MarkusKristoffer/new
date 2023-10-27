@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         binding.fab.setOnClickListener {
-            openFragment(AllLocationsFragment())
+            openFragment(CreateParkingFragment())
         }
 
         binding.navigationDrawer.setNavigationItemSelectedListener(this)
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when(item.itemId){
                 R.id.home -> openFragment(HomeFragment())
-                R.id.book -> openFragment(BookingFragment())
+                R.id.book -> openFragment(AllLocationsFragment())
                 R.id.location -> openFragment(MapsFragment())
                 R.id.profile -> openFragment(ProfileFragment())
             }
@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when(item.itemId){
             R.id.nav_all_location-> openFragment(AllLocationsFragment())
             R.id.nav_location -> openFragment(MapsFragment())
-            R.id.nav_book-> openFragment(BookingFragment())
+            R.id.fab -> openFragment(CreateParkingFragment())
+            R.id.nav_book  -> openFragment(BookingFragment())
             R.id.nav_profile -> openFragment(ProfileFragment())
 
         }

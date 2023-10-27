@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     tools:context=".AllLocationsFragment">
 
     <LinearLayout
@@ -50,7 +51,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -59,7 +61,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park1"
+                        android:src="@drawable/park6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -117,7 +119,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -126,7 +129,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park2"
+                        android:src="@drawable/park9"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -184,7 +187,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -193,7 +197,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park3"
+                        android:src="@drawable/park5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -251,7 +255,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -260,7 +265,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park4"
+                        android:src="@drawable/park2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -317,7 +322,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -326,7 +332,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park5"
+                        android:src="@drawable/park6"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -383,7 +389,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="250dp"
+                    android:background="@color/white">
 
 
                     <ImageView
@@ -392,7 +399,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/park6"
+                        android:src="@drawable/park8"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

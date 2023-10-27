@@ -1,4 +1,4 @@
-package com.example.anew
+package com.example.anew.database
 
 import android.content.ContentValues
 import android.content.Context

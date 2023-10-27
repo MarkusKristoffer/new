@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
+import com.example.anew.database.DatabaseHelper
+import com.example.anew.database.LogIn_SignUpDatabase
 import com.example.anew.databinding.ActivityLoginBinding
 
 
@@ -62,7 +64,7 @@ class LoginActivity : AppCompatActivity() {
             finish()
 
         }else{
-            Toast.makeText(this, "Login Succesful", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
 
 
         }

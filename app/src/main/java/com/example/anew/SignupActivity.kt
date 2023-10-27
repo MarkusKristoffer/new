@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
+import com.example.anew.database.DatabaseHelper
+import com.example.anew.database.LogIn_SignUpDatabase
 import com.example.anew.databinding.ActivitySignupBinding
 
 class   SignupActivity : AppCompatActivity() {
